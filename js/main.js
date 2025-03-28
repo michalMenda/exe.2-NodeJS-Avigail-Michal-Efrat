@@ -1,0 +1,10 @@
+const { listDirectory } = require('./dir');
+const { createDirectory } = require('./mkdir');
+const { removeDirectory } = require('./rmdir');
+const { copyFileContent } = require('./type');
+const { copyFile } = require('./copy');
+// listDirectory();
+// createDirectory('NewFolder');
+// removeDirectory('NewFolder');
+copyFileContent('./hello.js', './world.js', true);
+// copyFile('*.js', './copy-js');
