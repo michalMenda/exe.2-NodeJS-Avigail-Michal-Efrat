@@ -5,6 +5,6 @@ const { copyFileContent } = require('./type');
 const { copyFile } = require('./copy');
 // listDirectory();
 // createDirectory('NewFolder');
-// removeDirectory('NewFolder');
-copyFileContent('./hello.js', './world.js', true);
+// removeDirectory('copy-js');
+// copyFileContent('./hello.js', './world.js', true);
 // copyFile('*.js', './copy-js');
